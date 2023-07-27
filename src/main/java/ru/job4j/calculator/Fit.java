@@ -11,7 +11,7 @@ public class Fit {
 
     public static void main(String[] args) {
         short height = 177;
-        System.out.printf("Man %s is " + manWeight(height) + "." + "\n", height);
-        System.out.printf("Woman %s is " + womanWeight(height) + "." + "\n", height);
+        System.out.printf("Man %s is " + manWeight(height) + "." + System.lineSeparator(), height);
+        System.out.printf("Woman %s is " + womanWeight(height) + "." + System.lineSeparator(), height);
     }
 }
