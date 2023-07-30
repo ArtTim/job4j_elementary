@@ -1,14 +1,12 @@
 package ru.job4j.converter;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.*;
 
 class ConverterTest {
 
     @Test
-    void whenConver140RublesThen2Euro() {
+    void whenConvert140RublesThen2Euro() {
         float in = 140;
         float expected = 2;
         float out = Converter.rubleToEuro(in);
