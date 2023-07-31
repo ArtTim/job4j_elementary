@@ -9,12 +9,4 @@ public class Turn {
         }
         return array;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5};
-        int[] revert = back(nums);
-        for (int num : revert) {
-            System.out.println(num);
-        }
-    }
 }
