@@ -4,13 +4,13 @@ public class DivideBySix {
     public static String checkNumber(int num) {
         String result;
         if (num % 3 == 0 && num % 2 == 0) {
-            result = "The number divides by 6.";
-        } else if (num % 3 == 0 && num % 2 != 0) {
-            result = "The number divides by 3, but it isn't the even number.";
-        } else if (num % 3 != 0 && num % 2 == 0) {
-            result = "The number doesn't divide by 3, but it is the even number.";
+            result = "The number is divisible by 6";
+        } else if (num % 3 == 0) {
+            result = "The number is divisible by 6, but, it's an even number.";
+        } else if (num % 2 == 0) {
+            result = "The number isn't divisible by 6, but it's an even number.";
         } else {
-            result = "The number doesn't divide by 3 and it isn't the even number.";
+            result = "The number isn't divisible by 6 and it isn't an even number.";
         }
         return result;
     }
