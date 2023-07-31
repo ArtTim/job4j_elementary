@@ -6,7 +6,6 @@ public class ChessBoard {
         if (isValid(x1) && isValid(y1) && isValid(x2) && isValid(y2)) {
             if (idDiagonalMovement(x1, y1, x2, y2)) {
                 result = Math.abs(x1 - x2);
-                result = result == 0 ? Math.abs(y1 - y2) : result;
             }
         }
         return result;
