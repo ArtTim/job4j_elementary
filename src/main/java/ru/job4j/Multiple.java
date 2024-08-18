@@ -13,3 +13,13 @@ public class Multiple {
         System.out.println("1 * 9 = 9");
     }
 }
+/*
+int byte = 1;
+char gender = 'M'
+float growth = 1.5f;
+кол-во кирпичей - int
+кол-во бактерий - double
+расстояние до косм. объектов(км) - double
+разрешение на работу- boolean
+размер файла(байты)- long
+ */
