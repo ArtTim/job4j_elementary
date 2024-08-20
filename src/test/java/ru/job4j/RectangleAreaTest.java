@@ -1,5 +1,6 @@
 package ru.job4j;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
@@ -20,6 +21,7 @@ class RectangleAreaTest {
     }
 
     @Test
+    @DisplayName("Что тут?")
     void whenP5K1Then1Dot5625() {
         double expected = 1.5625;
         double output = RectangleArea.square(5, 1);
