@@ -6,7 +6,10 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        distance(0, 0, 2, 0);
+
         System.out.println("Result (0, 0) to (2, 0) " + distance(0, 0, 2, 0));
+        System.out.println("Result 2 " + distance(1, 0, 0, 2));
+        System.out.println("Result 2 " + distance(0, 3, 6, 1));
+        System.out.println("Result 2 " + distance(3, 3, 1, 2));
     }
 }
