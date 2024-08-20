@@ -9,8 +9,8 @@ public class RectangleArea {
     }
 
     public static void main(String[] args) {
-        System.out.println(square(6, 2)); // 2
-        System.out.println(square(4, 1)); // 1
-        System.out.println(square(5, 1)); // 1
+        System.out.println(square(6, 2));
+        System.out.println(square(4, 1));
+        System.out.println(square(5, 1));
     }
 }
