@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.condition;
 
 public class ArgumentsMethod {
     public static void hello(String name, int age) {

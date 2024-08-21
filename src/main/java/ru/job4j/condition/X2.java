@@ -12,4 +12,20 @@ public class X2 {
         System.out.println(calc(1, 1, 0, 1));
         System.out.println(calc(1, 1, 1, 0));
     }
+
+    public static class Tour {
+        public static void offer(boolean passport) {
+            System.out.println("Client has foreign passport: " + passport);
+            if (passport) {
+                System.out.println("Tours aboard");
+            } else {
+                System.out.println("Tours in Russia");
+            }
+        }
+
+        public static void main(String[] args) {
+            offer(true);
+            offer(false);
+        }
+    }
 }

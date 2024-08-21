@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.condition;
 
 public class Fit {
     public static double calculateWeight(short height, int baseHeight) {
