@@ -27,4 +27,5 @@ public class Slash {
         System.out.println("Dry by 5");
         draw(5);
     }
+
 }
