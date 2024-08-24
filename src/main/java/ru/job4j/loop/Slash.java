@@ -2,8 +2,6 @@ package ru.job4j.loop;
 
 public class Slash {
     public static void draw(int size) {
-//        00 11 22 33 44
-//        40 31 22 13 00
         for (int row = 0; row < size; row++) {
             for (int cell = 0; cell < size; cell++) {
                 boolean left = row == cell;
